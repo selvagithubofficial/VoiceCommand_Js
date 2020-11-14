@@ -93,12 +93,12 @@ function dark_light_mode(msg) {
   speech_synthesis.speak(utterance);
   window.open("https://youtu.be/OjU54VhRFbU");
   }
-  else if(msg.includes("designer team"))
+  else if(msg.includes("designer"))
   {
   para[0].innerHTML=utterance.text="There are 4 members in designer team";
   speech_synthesis.speak(utterance);
   }
-  else if(msg.includes("developer team"))
+  else if(msg.includes("developer"))
   {
   para[0].innerHTML=utterance.text="There are 5 members in developer's team";
   speech_synthesis.speak(utterance);
