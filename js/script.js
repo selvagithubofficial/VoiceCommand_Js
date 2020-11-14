@@ -87,6 +87,12 @@ function dark_light_mode(msg) {
   speech_synthesis.speak(utterance);
   window.open("https://www.amazon.in/");
   }
+  else if(msg.includes("song") || msg.includes("favorite"))
+  {
+  para[0].innerHTML=utterance.text="Selva your favorite song is opening";
+  speech_synthesis.speak(utterance);
+  window.open("https://youtu.be/OjU54VhRFbU");
+  }
 }
 
 
