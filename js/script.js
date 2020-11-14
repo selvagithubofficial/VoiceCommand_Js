@@ -83,7 +83,7 @@ function dark_light_mode(msg) {
   }
   else if(msg.includes("Amazon"))
   {
-  para[0].innerHTML=utterance.text="Facebook opening";
+  para[0].innerHTML=utterance.text="Amazon opening";
   speech_synthesis.speak(utterance);
   window.open("https://www.amazon.in/");
   }
