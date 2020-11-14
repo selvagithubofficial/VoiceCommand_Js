@@ -1,0 +1,17 @@
+div{
+	text-align: center;
+}
+
+.dark{
+	background-color: black;
+}
+h2{
+	color: red;
+	font-weight: bolder;
+	font-family: cursive;
+}
+h1{
+	color: teal;
+	font-weight: bolder;
+	font-family: cursive;
+}
