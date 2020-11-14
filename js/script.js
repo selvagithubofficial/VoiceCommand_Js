@@ -81,6 +81,12 @@ function dark_light_mode(msg) {
   speech_synthesis.speak(utterance);
   window.open("https://www.youtube.com/watch?v=Vq-9xWMiiVQ");
   }
+  else if(msg.includes("Amazon"))
+  {
+  para[0].innerHTML=utterance.text="Facebook opening";
+  speech_synthesis.speak(utterance);
+  window.open("https://www.amazon.in/");
+  }
 }
 
 
