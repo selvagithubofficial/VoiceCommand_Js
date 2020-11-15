@@ -43,7 +43,7 @@ function dark_light_mode(msg) {
   }
   else if(Lmsg.includes("light"))
   {
-  para[0].innerHTML=utterance.text=Lmsg+"Light mode enabled ";
+  para[0].innerHTML=utterance.text="Light mode enabled ";
   body.classList.remove("dark");
   body.classList.remove("bodyimg");
   speech_synthesis.speak(utterance);
