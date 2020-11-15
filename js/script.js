@@ -36,6 +36,7 @@ function dark_light_mode(msg) {
   let Lmsg=msg.toLowerCase();
   if(Lmsg.includes("dark")){
     body.classList.add("dark");
+    body.classList.remove("bodyimg");
     para[0].innerHTML=utterance.text="Dark mode enabled";
     speech_synthesis.speak(utterance);
     console.log(speech_synthesis);
@@ -44,6 +45,7 @@ function dark_light_mode(msg) {
   {
   para[0].innerHTML=utterance.text=Lmsg+"Light mode enabled ";
   body.classList.remove("dark");
+  body.classList.remove("bodyimg");
   speech_synthesis.speak(utterance);
   console.dir(speech_synthesis);
   }
